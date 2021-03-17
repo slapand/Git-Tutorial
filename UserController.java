@@ -12,4 +12,10 @@ public class UserController {
 		logger.info("경로 : insert");
 		return "user/insert";
 	}
+
+	@RequestMapping("/user/update1.do")
+	public String update1(){
+		logger.info("경로 : update1");
+		return "user/update1";
+	}
 }
