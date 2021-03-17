@@ -24,4 +24,7 @@ public class UserController {
 		logger.info("경로 : delete");
 		return "user/delete";
 	}
+
+	master
+
 }
