@@ -18,4 +18,10 @@ public class UserController {
 		logger.info("경로 : update1");
 		return "user/update1";
 	}
+
+	@RequestMapping("/user/delete.do") - MASTER
+	public String delete(){
+		logger.info("경로 : delete");
+		return "user/delete";
+	}
 }
